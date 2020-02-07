@@ -1,0 +1,44 @@
+@import url('__city-name/barentsburg__city-name.css');
+@import url('__geographic-coordinates/barentsburg__geographic-coordinates.css');
+@import url('__map/barentsburg__map.css');
+@import url('__overview/barentsburg__overview.css');
+@import url('__url/barentsburg__url.css');
+
+.barentsburg {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 1184px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width : 1279px) {
+    .barentsburg {
+        width: calc(928/1024*100%);
+    }
+}
+
+@media screen and (max-width : 1023px) {
+    .barentsburg {
+        width: calc(720/768*100%);
+    }
+}
+
+
+@media screen and (max-width : 767px) {
+        .barentsburg {
+        justify-content: flex-start;
+        min-width: 100vw;
+        height: 100%;
+        margin-top: 24px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .barentsburg {
+        margin-top: 0px;
+        width: 100%;
+        min-height: 100%;
+    }
+}

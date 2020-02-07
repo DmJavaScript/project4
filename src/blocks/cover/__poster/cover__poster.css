@@ -1,0 +1,24 @@
+.cover__poster {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0.7;
+}
+
+
+@media screen and (max-width : 1184px) {
+    /* стили для нетбуков и планшетов*/
+    .cover__poster  {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .cover__poster {
+        height: 100%;
+    }
+}

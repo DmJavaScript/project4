@@ -1,0 +1,42 @@
+.additional__title {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    padding: 30px 18px 0px;
+
+    height: 60px;
+    z-index: 2;
+    line-height: 29px;
+    font-size: 27px;
+    text-align: left;
+
+    font-family: Inter;
+    font-weight: 900;
+}
+
+.additional__title:hover {
+    opacity: 0.9;
+    transition: line-height 2s ease-out;
+    line-height: 250px;
+}
+
+
+@media screen and (max-width : 1200px) and (min-width : 1024px) {
+    .additional__title {
+        line-height: 26px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width : 1185px) and (min-width : 1023px) {
+    .additional__title {
+        padding: 24px 16px 0px 9px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .additional__title {
+        line-height: 26px;
+        font-size: 24px;
+    }
+}

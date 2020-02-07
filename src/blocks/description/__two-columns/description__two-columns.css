@@ -1,0 +1,35 @@
+@import url('article/__preface/article__preface.css');
+@import url('article/__aside/article__aside.css');
+
+.description__two-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    width: 984px;
+    margin: 27px 0px 30px;
+}
+
+
+@media screen and (max-width : 1000px) {
+    /* стили для планшета */
+    .description__two-columns {
+        flex-direction: column;
+        width: 100%;
+        margin: 12px 0px 25px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .description__two-columns {
+        margin: 14px 0px 38px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .description__two-columns {
+        margin: 17px 0px 40px;
+    }
+}

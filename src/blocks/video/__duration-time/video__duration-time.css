@@ -1,0 +1,40 @@
+.video__duration-time {
+    position: absolute;
+    bottom: 0;
+    line-height: 13px;
+    font-size: 12px;
+    letter-spacing: 0.3em;
+    margin: 0;
+    z-index: 4;
+
+    padding: 0 30px 112px;
+    font-family: 'Inter';
+    font-weight: 500;
+}
+
+
+@media screen and (max-width : 768px) and (min-width : 671px) {
+    .video__duration-time {
+        padding: 0 24px 84px;
+    }
+}
+
+@media screen and (max-width : 670px) and (min-width : 431px) {
+    .video__duration-time {
+        padding: 0 24px 112px;
+        line-height: 13px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .video__duration-time {
+        padding: 3px 24px 82px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .video__duration-time {
+        padding: 0 16px 74px;
+    }
+}

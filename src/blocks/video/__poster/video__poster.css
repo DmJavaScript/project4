@@ -1,0 +1,10 @@
+.video__play:hover + .video__poster {
+    opacity: 0;
+    transition: opacity 2s linear;
+}
+
+.video__poster {
+    width: 100%;
+    background-size: cover;
+    opacity: 0.5;
+}

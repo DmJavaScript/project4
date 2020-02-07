@@ -1,0 +1,13 @@
+.places__url-website {
+    font-size: 18px;
+    letter-spacing: 0em;
+    color: #ffffff;
+    border-bottom: 1px solid #fff;
+
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.places__url-website:hover {
+    opacity: 0.7;
+}

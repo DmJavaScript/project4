@@ -1,0 +1,69 @@
+@import url('__fake-header/photos-grid__fake-header.css');
+@import url('__item/photos-grid__item.css');
+
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 284px);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    width: 1184px;
+    height: 596px;
+    margin: 0 auto 99px;
+}
+
+
+@media screen and (max-width : 1220px) {
+    .photos-grid {
+        width: 935px;
+        height: 847px;
+        grid-template-columns: repeat(auto-fill, 300px);
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбуков */
+    .photos-grid {
+        margin-bottom: 103px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .photos-grid {
+        grid-template-columns: repeat(auto-fill, 352px);
+        width: 720px;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 91px;
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .photos-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: calc(720/768*100%);
+    }
+}
+
+
+@media screen and (max-width : 600px) {
+    .photos-grid {
+        margin: 10px auto 67px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .photos-grid {
+        max-width: calc(343/375*100%);
+        height: auto;
+        margin: 0px auto 67px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .photos-grid {
+        width: 288px;
+    }
+}

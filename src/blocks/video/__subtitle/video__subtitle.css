@@ -1,0 +1,39 @@
+.video__subtitle {
+    position: absolute;
+    bottom: 0px;
+    line-height: 15px;
+    font-size: 14px;
+    margin: 0;
+    z-index: 4;
+
+    padding: 18px 30px 35px;
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+
+@media screen and (max-width : 768px) and (min-width : 671px){
+    .video__subtitle {
+        padding: 12px 24px 24px;
+    }
+}
+
+@media screen and (max-width : 670px) and (min-width : 431px) {
+    .video__subtitle {
+        padding: 3px 24px 24px;
+        line-height: 23px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 430px) {
+    .video__subtitle {
+        padding: 3px 24px 24px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .video__subtitle {
+        padding: 2px 16px 16px;
+    }
+}

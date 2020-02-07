@@ -1,0 +1,7 @@
+@import url('../__picture-back-layer/lead__picture-back-layer.css');
+@import url('../__picture-route/lead__picture-route.css');
+
+.lead__picture {
+    display: flex;
+    position: relative;
+}

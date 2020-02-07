@@ -1,0 +1,58 @@
+@import url('__fake-header/header__fake-header.css');
+@import url('__logo/header__logo.css');
+@import url('__language-container/header__language-container.css');
+@import url('__language/header__language.css');
+
+
+.header {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    max-width: 1184px;
+    min-height: 90px;
+    margin: 0px auto 50px;
+}
+
+
+@media screen and (max-width : 1280px) {
+    .header {
+        width: 93%;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбуков */
+    .header {
+        width: 90.5%;
+        min-height: 90px;
+        margin: 0px 4.7% 50px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .header {
+        width: 94%;
+        margin: 0px 3% 50px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .header {
+        width: 92.3%;
+        min-height: 76px;
+        margin: 0px 4% 58px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .header {
+        width: 90%;
+        min-width: 288px;
+        min-height: 65px;
+        margin: 0px 5% 43px;
+    }
+}

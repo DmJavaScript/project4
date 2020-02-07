@@ -1,0 +1,55 @@
+@import url('../__overview/additional__overview.css');
+@import url('../__picture/additional__picture.css');
+@import url('../__title/additional__title.css');
+
+.additional__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+
+    width: 284px;
+    border-radius: 10px;
+    height: inherit;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.additional__card:hover {
+    transition: box-shadow 2s ease-out;
+    box-shadow: -1px 9px 16px 3px rgba(255, 255, 255, 0.1);
+    border-color:#ffffff;
+}
+
+.additional__card:hover .additional__overview {
+    transition: opacity 1s ease-out;
+    opacity: 0;
+}
+
+
+@media screen and (max-width : 1279px) {
+    .additional__card {
+        width: 24.2%;
+    }
+}
+
+@media screen and (max-width : 1023px) and (min-width : 651px) {
+    .additional__card {
+        width: calc(284/584*100%);
+        margin-top: 16px;
+    }
+
+    .additional__card:first-child, .additional__card:nth-child(2) {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .additional__card {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .additional__card:first-child {
+        margin-top: 0;
+    }
+}

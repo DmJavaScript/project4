@@ -1,0 +1,56 @@
+.lead__subtitle {
+    width: 583px;
+    text-align: center;
+    line-height: 36px;
+    font-size: 30px;
+    margin: 40px auto 75px;
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбуков */
+    .lead__subtitle {
+        margin: 35px auto 80px;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .lead__subtitle {
+        width: 87%;
+    }
+}
+
+@media screen and (max-width : 700px){
+    .lead__subtitle {
+        max-width: 590px;
+        line-height: 25px;
+        font-size: 24px;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width : 688px){
+    .lead__subtitle {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .lead__subtitle {
+        width: 80%;
+        text-align: center;
+        line-height: 23px;
+        font-size: 16px;
+        margin: 11px auto 31px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .lead__subtitle {
+        width: 85%;
+    }
+}

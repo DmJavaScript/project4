@@ -1,0 +1,60 @@
+.cover__description {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    width: 382px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0 auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбука */
+    .cover__description {
+        bottom: 7%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .cover__description {
+        bottom: 15%;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .cover__description {
+        width: 50%
+    }
+}
+
+@media screen and (max-width : 760px) {
+    .cover__description {
+        width: 70%;
+        line-height: 17px;
+        font-size: 14px;
+    }
+    .cover__description span{
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    .cover__description {
+        bottom: 11%;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    .cover__description {
+        bottom: 10%;
+        width: 90%;
+    }
+}

@@ -1,0 +1,30 @@
+.lead__picture-back-layer {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width : 1024px) {
+  .lead__picture-back-layer {
+      height: auto;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .lead__picture-back-layer {
+      height: 55vw;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  .lead__picture-back-layer {
+      width: 100%;
+      height: 100%;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  .lead__picture-back-layer {
+      width: 100%;
+      height: 210px;
+  }
+}

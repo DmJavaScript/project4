@@ -1,0 +1,19 @@
+@import url('../__statistics-item/description__statistics-item.css');
+@import url('../__statistics-numbers/description__statistics-numbers.css');
+
+.description__statistics {
+    padding-left: 0; /* убираем отступы в Firefox, Safari, Chrome */
+    line-height: 20px;
+    font-size: 13px;
+
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+
+@media screen and (max-width : 375px) {
+    .description__statistics {
+        line-height: 19px;
+        font-size: 12px;
+    }
+}
