@@ -1,0 +1,16 @@
+.emblem__city-name {
+    text-align: center;
+    line-height: 26px;
+    font-size: 24px;
+    color: #cccccc;
+    margin: 35px auto 0;
+
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+@media screen and (max-width : 1000px) and (min-width : 376px) {
+    .emblem__item:first-of-type .emblem__city-name {
+        max-width: 131px;
+    }
+}

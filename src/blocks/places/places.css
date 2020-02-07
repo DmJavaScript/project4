@@ -1,0 +1,42 @@
+@import url('__fake-header/places__fake-header.css');
+@import url('__container/places__container.css');
+
+.places {
+    display: flex;
+    flex-direction: column;
+    width: 984px;
+    height: auto;
+    margin: 0px auto;
+}
+
+
+@media screen and (max-width : 1220px) {
+    .places {
+        width: 935px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбуков */
+    .places {
+        width: calc(928/1024*100%);
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .places {
+        width: 94%;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .places {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .places {
+        min-width: 100%;
+    }
+}

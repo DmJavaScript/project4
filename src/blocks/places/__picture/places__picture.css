@@ -1,0 +1,44 @@
+
+
+@media screen and (max-width : 1220px) {
+    .places__picture {
+        width: 95.6%;
+        margin-top: 10px;
+    }
+
+    .places__picture:first-of-type {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width : 1023px) {
+    /* стили для планшета */
+    .places__picture {
+        align-self: flex-end;
+        width: 43vw;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    /* стили для планшета */
+    .places__picture {
+        max-width: 43vw;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .places__picture  {
+        min-width: 100vw;
+        margin-left: 0px;
+    }
+
+    .places__picture picture {
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .places__picture  {
+        min-width: 320px;
+    }
+}

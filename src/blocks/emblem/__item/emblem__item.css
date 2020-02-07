@@ -1,0 +1,45 @@
+@import url('../__image/emblem__image.css');
+@import url('../__city-name/emblem__city-name.css');
+
+.emblem__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    align-items: center;
+    margin-top: 213px;
+    width: 208px;
+    height: 284px;
+}
+
+.emblem__item:nth-child(3) {
+    width: 208px;
+}
+
+@media screen and (max-width : 1190px) and (min-width : 1001px) {
+    .emblem__item {
+        width: 17.2%;
+    }
+}
+
+@media screen and (max-width : 1000px) and (min-width : 681px) {
+    .emblem__item, .emblem__item:nth-child(3) {
+        width: 33.3%;
+    }
+
+    .emblem__item:nth-child(5), .emblem__item:last-child {
+        margin-top: 58px;
+    }
+}
+
+@media screen and (max-width : 680px) {
+    .emblem__item {
+        height: auto;
+        background-size: auto 226px;
+        margin-top: 49px;
+    }
+
+    .emblem__item:nth-child(2) {
+        margin-top: 0px;
+    }
+}

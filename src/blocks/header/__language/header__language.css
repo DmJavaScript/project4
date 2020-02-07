@@ -1,0 +1,18 @@
+﻿@import url('../__language-chosen/header__language-chosen.css');
+@import url('../__language-link/header__language-link.css');
+
+.header__language {
+    display: inline;
+    list-style-type: none; /* Убираем маркеры */
+    font-size: 24px;
+
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+
+@media screen and (max-width : 320px) {
+    .header__language {
+        font-size: 17px;
+    }
+}

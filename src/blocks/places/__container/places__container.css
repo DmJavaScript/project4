@@ -1,0 +1,88 @@
+@import url('../__title/places__title.css');
+@import url('../__url/places__url.css');
+@import url('../__picture/places__picture.css');
+@import url('../__article/places__article.css');
+
+.places__container {
+    display: flex;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 81px;
+}
+
+.places__container:nth-of-type(1)  {
+    margin: 0;
+}
+
+
+@media screen and (max-width : 1024px) and (min-width : 1001px) {
+    .places__container:nth-of-type(2) {
+        margin-top: 90px;
+    }
+
+    .places__container:nth-of-type(3) {
+        margin-top: 95px;
+    }
+
+    .places__container:nth-of-type(4) {
+        margin-top: 82px;
+    }
+
+    .places__container:nth-of-type(5) {
+        margin-top: 85px;
+    }
+}
+
+@media screen and (max-width : 768px) and  (min-width : 376px) {
+
+    .places__container:nth-of-type(2) {
+        margin-top: 75px;
+    }
+
+    .places__container:nth-of-type(3) {
+        margin-top: 80px;
+    }
+
+    .places__container:nth-of-type(4) {
+        margin-top: 78px;
+    }
+
+    .places__container:nth-of-type(5) {
+        margin-top: 91px;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .places__container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .places__container {
+        margin-top: 58px;
+    }
+
+    .places__container:nth-of-type(5) {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .places__container:nth-of-type(2) {
+        margin-top: 54px;
+    }
+
+    .places__container:nth-of-type(4) {
+        margin-top: 55px;
+    }
+
+    .places__container:nth-of-type(5) {
+        margin-top: 63px;
+    }
+}

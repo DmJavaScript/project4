@@ -1,0 +1,44 @@
+@import url('../__items-container/video__items-container.css');
+
+.video__big-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    height: 323px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width : 768px) {
+    .video__big-container {
+        max-height: 200px;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width : 670px) {
+    .video__big-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-height: 100%;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .video__big-container {
+        min-height: 408px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .video__big-container {
+        min-height: 390px;
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,39 @@
+.lead__caption {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 11px auto 0 0;
+
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+
+@media screen and (max-width : 1024px) {
+    .lead__caption {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    /* стили для планшета */
+    .lead__caption {
+        margin-left: 3%;
+    }
+}
+
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .lead__caption {
+        margin-top: 9px;
+        margin-left: 4%;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .lead__caption {
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+}

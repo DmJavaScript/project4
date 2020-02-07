@@ -1,0 +1,22 @@
+.emblem__image {
+  position: relative;
+  height: 226px;
+}
+
+.emblem__item:hover .emblem__image {
+  transform: perspective(300px) rotateY(1turn);
+  transition: 3s;
+}
+
+
+@media screen and (max-width : 1190px)  {
+  .emblem__image {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width : 1000px)  {
+  .emblem__image {
+    height: 226px;
+  }
+}

@@ -1,0 +1,30 @@
+@import url('__container/additional__container.css');
+
+.additional {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin: 102px auto 115px;
+}
+
+
+@media screen and (max-width : 1024px) {
+    .additional {
+        margin: 102px auto 0;
+    }
+}
+
+@media screen and (max-width : 650px) {
+    .additional {
+        width: calc(278/375*100%);
+    }
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего и малого смартфона */
+    .additional {
+        width: 284px;
+        margin: 64px auto 0;
+    }
+}

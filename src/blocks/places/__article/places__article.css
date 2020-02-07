@@ -1,0 +1,35 @@
+@import url('../__article-paragraph/places__article-paragraph.css');
+
+.places__article {
+    align-self: flex-start;
+    width: 488px;
+}
+
+
+@media screen and (max-width : 1220px) {
+    .places__article {
+        width: 48.8%;
+    }
+}
+
+@media screen and (max-width : 1023px) {
+    .places__article {
+        width: 49%;
+        padding-left: 2.5vw;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .places__article {
+        width: 92.8vw;
+        padding-left: 3.6vw;
+        margin: 10px 0 0;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .places__article {
+        width: 288px;
+        padding-left: 5vw;
+    }
+}

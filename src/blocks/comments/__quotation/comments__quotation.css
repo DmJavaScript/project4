@@ -1,0 +1,26 @@
+.comments__quotation {
+    line-height: 24px;
+    font-size: 14px;
+    margin: 38px auto 24px;
+    border: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+}
+
+
+@media screen and (max-width : 1024px) {
+    .comments__quotation {
+        margin: 43px auto 16px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    /* стили для нетбуков */
+    .comments__quotation {
+        line-height: 22.5px;
+        font-size: 16px;
+        margin: 24px auto 0px;
+        order: 2;
+    }
+}

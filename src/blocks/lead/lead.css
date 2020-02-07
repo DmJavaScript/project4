@@ -1,0 +1,40 @@
+@import url('__title/lead__title.css');
+@import url('__subtitle/lead__subtitle.css');
+@import url('__picture/lead__picture.css');
+@import url('__caption/lead__caption.css');
+
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 984px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width : 1220px) {
+    /* стили для нетбуков */
+    .lead {
+        width: 928px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для нетбуков */
+    .lead {
+        width: 90.5%;
+    }
+}
+
+@media screen and (max-width : 1000px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .lead {
+        min-width: 100%;
+    }
+}

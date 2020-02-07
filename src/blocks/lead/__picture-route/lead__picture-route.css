@@ -1,0 +1,39 @@
+.lead__picture-route {
+  position: absolute;
+  width: 95.2%;
+  margin-top: 126px;
+  margin-left: 3%;
+  z-index: 2;
+}
+
+@media screen and (max-width : 1220px){
+  .lead__picture-route {
+      margin-top: 118px;
+  }
+}
+
+@media screen and (max-width : 1000px) {
+  .lead__picture-route {
+      margin-top: 13vw;
+  }
+}
+
+@media screen and (max-width : 768px){
+  .lead__picture-route {
+      margin-top: 12vw;
+  }
+}
+
+@media screen and (max-width : 375px) {
+  /* стили для среднего смартфона */
+  .lead__picture-route {
+      margin-top: 13vw;
+  }
+}
+
+@media screen and (max-width : 320px) {
+  /* стили для малого смартфона */
+  .lead__picture-route {
+      margin-top: 17vw;
+  }
+}

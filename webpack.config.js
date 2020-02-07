@@ -42,7 +42,13 @@ module.exports = {
                 use: {
                 loader: 'file-loader?name=./images/[name].[ext]'
                 },
-            }
+            },
+            {
+                test: /\.(eot|ttf|otf|woff|woff2)$/,
+                use: {
+                    loader: 'file-loader?name=./fonts/[name].[ext]'
+                },
+            },
         ]
     },
     plugins: [
