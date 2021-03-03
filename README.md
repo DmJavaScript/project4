@@ -39,7 +39,7 @@
 #### используя утилиту Git Bash
 склонировать проект напрямую в свой репозиторий командой
 ```shell
-git clone https://github.com/DmJavaScript/project2.git
+git clone https://github.com/DmJavaScript/project4.git
 ```
 
 установите все необходимые плагины с помощью автоматической пакетной установки,  для этого достаточно ввести команды
